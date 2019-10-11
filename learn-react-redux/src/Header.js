@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { signIn, signOut } from './actions';
 
+import Button from 'react-bootstrap/Button';
 
 const Header = () => {
     const isLoggedIn = useSelector(state => state.isLoggedIn);
@@ -10,13 +11,13 @@ const Header = () => {
         <React.Fragment>
         {isLoggedIn 
             ? 
-                <button onClick={() => dispatch(signOut())}>
+                <Button onClick={() => dispatch(signOut())}>
                     Logout
-                </button>
+                </Button>
             :
-                <button onClick={() => dispatch(signIn())}>
+                <Button onClick={() => dispatch(signIn())}>
                     Login
-                </button>
+                </Button>
         }
         </React.Fragment>
     )

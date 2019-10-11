@@ -5,7 +5,7 @@ import { combineReducers } from 'redux';
 
 const allReducers = combineReducers({
     counter: counterReducer,
-    isLiggedIn: loggedInReducer
+    isLoggedIn: loggedInReducer
 });
 
 export default allReducers;

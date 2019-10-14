@@ -8,7 +8,7 @@ Project for explaining react-redux and learn it deeper. It is available to all f
 [![Redux Core Concepts](public/cover.png)](https://blog.greenroots.info/redux-core-concepts-made-easy-ck1ou11tt00wx8us1rk4l7sn6)
 
 ## How about reading the entire series(Work In Progress)?
-[![Redux Core Concepts](public/blend_image.png)](https://hashnode.com/series/a-blend-of-redux-and-reactjs-state-management-made-easy-ck1ouhsuy00yc8zs1r59ht8r9)
+- [Redux and ReactJs State Management Made Easy!](https://hashnode.com/series/a-blend-of-redux-and-reactjs-state-management-made-easy-ck1ouhsuy00yc8zs1r59ht8r9)
 
 
 Liked what I do? Thank You Very Much!

@@ -3,6 +3,10 @@
 
 Project for explaining react-redux and learn it deeper. It is available to all for exploring.
 
+## Step by Step Guide: Blend Redux with ReactJs
+
+[![Step by Step Guide: Blend Redux with ReactJs](series_cover.png)](https://blog.greenroots.info/step-by-step-guide-blend-redux-with-reactjs-ck1tixqp00055avs100ncho2x)
+
 ## Redux Core Concepts
 
 [![Redux Core Concepts](cover.png)](https://blog.greenroots.info/redux-core-concepts-made-easy-ck1ou11tt00wx8us1rk4l7sn6)

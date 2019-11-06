@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { signIn, signOut } from './actions';
+import { signIn, signOut } from './actions/authActions';
 
 import Button from 'react-bootstrap/Button';
 

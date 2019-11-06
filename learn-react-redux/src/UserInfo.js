@@ -21,8 +21,17 @@ const UserInfo = (props) => {
                 <p>
                     <strong>Following:</strong> {props.user.following}
                 </p>
+                {props.user.blog !== '' ?
                 <p>
-                    <strong>Blog:</strong> {props.user.blog}
+                    <strong>Blog:</strong>  <a href={props.user.blog}>{props.user.blog}</a>
+                </p>
+                :
+                <p>
+                    <strong>Blog:</strong>  No Blog.
+                </p>
+                }
+                <p>
+                    <strong>Company:</strong> {props.user.company}
                 </p>
             </div>
         </div>
